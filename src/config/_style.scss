@@ -168,3 +168,67 @@ padding: 80px 0;
          display: inline-block;
          font-size: 12px;
      }
+
+
+
+     /*----------------Contactanos---------*/
+
+     #social-media {
+         background: #f5f5f5;
+         padding: 100px 0;
+     }
+     #social-media p{
+         font-size: 36px;
+         font-weight: 600;
+         margin-bottom: 30px
+     }
+
+     .social-icons img{
+         width: 60px;
+         transition: 0.5s;
+     }
+
+     .social-icons a:hover img{transform: translateY(-10px);}
+
+     /*-------------Footersection--*/
+
+     #footer {
+         background-image: linear-gradient(to right, #b6d154, #c99cc2);
+         color: #faf2f4;}
+
+     .footer-img{width: 100%;}
+
+     .footer-box {padding: 20px;}
+
+     .footer-box img{ width: 120px;margin-bottom: 20px;}
+
+     .footer-box .fa{
+         margin-right: 8px;
+         font-size: 25px;
+         height: 40px;
+         width: 40px;
+         text-align: center;
+         padding-top: 7px;
+         border-radius: 2px;
+         background-image: linear-gradient(to right, #bd3d5d, #c99cc2); }
+
+     .footer-box .form-control{
+         box-shadow: none !important;
+        border: none;
+        border-radius: 0;
+        margin-top: 25px;
+        max-width: 250px;}
+
+     .footer-box .btn-primary{
+        box-shadow: none !important;
+        border: none;
+        border-radius: 0;
+        margin-top: 30px;
+        background-image: linear-gradient(to right, #bd3d5d, #c99cc2);}
+
+     .hr{ background-color: #b6d154; }
+
+     .copyright{
+         margin-bottom: 0;
+         padding-bottom: 20px;
+         text-align: center;}
